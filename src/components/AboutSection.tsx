@@ -46,7 +46,9 @@ const AboutSection = () => {
             </Card>
           </div>
         </div>
-
+       <p class="lead">
+  I am a passionate and dedicated computer science student with a strong foundation in web development. I specialize in creating responsive and user-friendly web applications using technologies like HTML, CSS, and JavaScript. I am currently seeking an internship where I can apply my skills to solve real-world problems and contribute to a forward-thinking development team.
+</p>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {highlights.map((item, index) => (
             <Card key={index} className="transition-smooth hover:scale-105 hover:glow-accent border-border/50">
