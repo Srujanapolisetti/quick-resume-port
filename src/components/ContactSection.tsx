@@ -71,7 +71,20 @@ const ContactSection = () => {
               </Card>
             ))}
           </div>
-
+<section id="contact" class="container">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="lead">I'm currently open to new opportunities. Feel free to contact me!</p>
+      <div class="contact-links">
+        <a href="mailto:youremail@example.com" class="btn btn-outline-light btn-lg"><i class="fas fa-envelope"></i> Email</a>
+        <a href="https://www.linkedin.com/in/yourprofile/" target="_blank" class="btn btn-outline-light btn-lg"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="https://github.com/Srujanapolisetti" target="_blank" class="btn btn-outline-light btn-lg"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
+          
           {/* Call to Action */}
           <Card className="gradient-secondary border-border/50">
             <CardContent className="p-8 text-center">
